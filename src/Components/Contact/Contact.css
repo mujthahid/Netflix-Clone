@@ -1,0 +1,50 @@
+.contact{
+    display: flex;
+    background-color: rgb(46, 44, 44);
+    padding: 20px 0;
+   justify-content: space-around;
+}
+
+.contactDetails{
+    font-size: small;
+}
+.contactDetails h3{
+    padding-bottom: 10px;
+}
+.contactMethods{
+   display: flex;  
+}
+
+.mobile,.email{
+    padding: 2px 0 ;
+    padding-right: 3px;
+}
+
+.socialMedia h4{
+    margin-bottom: 10px;
+}
+
+
+
+.socialMediaList{
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    height: fit-content;
+}
+
+.socialMedia a{
+   margin-right: 10px;
+   cursor: pointer;
+   text-decoration: none;
+}
+
+.socialMedia a:hover{
+    color: aliceblue;
+}
+
+
+
+
+
+

@@ -1,0 +1,69 @@
+
+.card{
+background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+z-index: 50;
+flex-direction: column;
+
+}
+
+.cardContent{
+    position: relative;
+    background-color: black;
+   margin: auto;
+   margin-top: 10px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+    height: 100vh;
+    width: 85vw;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.cardContent::-webkit-scrollbar{
+display: none;
+}
+
+.cardTitle{
+    padding-top: 10px;
+    padding-bottom: 50px;
+
+}
+
+.closeButton{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: x-large;
+    
+}
+
+.cardContentInner{
+    display: flex;
+    flex-wrap: wrap;
+   font-size: 12px;
+   gap: 20px;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+
+
+.cardContentInner img{
+    width: 250px;
+    height: auto;
+   cursor: pointer;
+   transition: all .3s .2s ease-in;
+
+}
+
+.cardContentInner img:hover{
+    transform: scale(1.2);
+   
+}
