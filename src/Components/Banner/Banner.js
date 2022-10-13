@@ -35,8 +35,7 @@ const bannerMovie= async(id,type)=>{
       {movieVideoId && videoPlayer && <VideoPlayer movieVideoId={movieVideoId} setVideoPlayer={setVideoPlayer}/>}
         <div style={{backgroundImage:`URL(${movie ? imageUrl+movie.backdrop_path : ""})` }}
          className='banner'>
-             
-            <div className="content">
+             <div className="content">
            
                 <h1 className="title">{movie ? movie.title || movie.name : ""} </h1>
                 <div className="banner_buttons">

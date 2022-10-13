@@ -1,6 +1,7 @@
 .row{
     margin-left: 20px;
     color: #fff;
+    width: 100;
 }
 
 
@@ -15,7 +16,7 @@
 }
 
 .explore{
-    width: 200px;
+    width: 150px;
     display: flex;
 }
 
@@ -50,9 +51,9 @@ transition: display .5s ease-in;
 
 .posters{
     display: flex;
-  padding: 20px;
+    padding: 20px;
     overflow-x: scroll;
-    scroll-behavior: smooth;
+   scroll-behavior: smooth;
     
 }
 
